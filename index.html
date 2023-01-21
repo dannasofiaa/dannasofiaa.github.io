@@ -1,0 +1,184 @@
+# dannasofiaa.github.io
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Webmaster</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <style>
+        /* Some custom styles to beautify this example */
+        .demo-content{
+            padding: 15px;
+            font-size: 18px;
+            background: #dbdfe5;
+            margin-bottom: 15px;
+        }
+        .demo-content.bg-alt{
+            background: #abb1b8;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-decoration-line: overline underline;
+            font-size: 90px;
+            color: white;
+        }
+        .container-fluid gsmst-pic{
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .carousel{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 70px;
+            background-color: rgb(166, 212, 251);
+        }
+        h2{
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 50px;
+        }
+        h6{
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 30px;
+        }
+        p{
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+        }
+        img.award{
+            height:70%;
+            width:100%;
+            text-align: center;
+        }
+    </style>
+
+    <body link="green" alink="black" vlink="purple">
+
+        <!--navigation stuff-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cte.html">CTE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="chapter.html" class="nav-link">TSA Chapter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="brief.html" class="nav-link">Design Brief</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+              </ul>
+            </div>
+        </nav> 
+
+        <!--gsmst picture-->
+        
+        <div class="container-fluid gsmst-pic">
+            <img src="img/pic4.png" alt="GSMST" style="width:100%;">
+            <div class="centered">GSMST</div>
+        </div>
+        <br>
+        <h1>Gwinnett School of Mathematics, Science, and Technology</h1>
+        <!--scrolling announcements-->
+            <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+  
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pic2.png" alt="IN" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>International Night</h5>
+                        <p>International Night is the biggest night of the year at GSMST; everyone comes together to celebrate other cultures and share a night of great performances.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pic6.png" alt="Atrium" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Atrium</h5>
+                        <p>The atrium at GSMST creates a great welcome for visitors and students eveyr day, while also hosting a study alcove for students.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pic3.png" alt="MLLH" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>GSMST Lecture Halls</h5>
+                        <p>The lecture halls are used for holding large classes and for hosting large club events.</p>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        
+
+        <div class="container">
+            <h2>Awards</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>National Blue Ribbon School</h6>
+                        <img class="award" src="img/pic7.png" alt="National Blue Ribbon">
+                        <div class="col">
+                            <p>The Gwinnett School of Mathematics, Science, and Technology was recognized as a Blue Ribbon School in 2016.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h6>US News</h6>
+                        <img class="award" src="img/pic8.png" alt="US News">
+                        <div class="col">
+                            <p>The Gwinnett School of Mathematics, Science, and Technology ranked No. 6 high school in the country by U.S. News and in the World Report GSMST ranked the No. 1 school in Georgia and the No. 21 STEM School in the country.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h6>4th at 2020 State Leadership Conference</h6>
+                        <img class="award" src="img/pic9.png" alt="fourth">
+                        <div class="col">
+                            <p>The Gwinnett School of Mathematics, Science, and Technology's Webmaster team competed and placed 4th in the Webmaster Category in 2021.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+
+</html>
